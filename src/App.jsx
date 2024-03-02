@@ -11,6 +11,7 @@ import Meals from './pages/Meals';
 import Intro from './pages/intro'
 import { setToken } from './utils/token';
 
+// Added comment
 
 function App() {
   const [hash, setHash] = useState(window.location.hash.split("?")[0])
