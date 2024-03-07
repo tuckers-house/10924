@@ -13,9 +13,6 @@ import { setToken } from './utils/token';
 
 // Added comment
 
-
-
-
 function App() {
   const [hash, setHash] = useState(window.location.hash.split("?")[0])
   window.addEventListener('hashchange', () => {setHash(window.location.hash.split("?")[0])})
